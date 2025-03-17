@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Исследование Космоса</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+  <h1>Исследование Космоса</h1>
+  <button id="toggleTheme">Сменить тему</button>
+</header>
+
+<main>
+  <div class="controls">
+    <button id="filterLarge">Фильтр больших планет</button>
+    <button id="resetFilter">Сбросить фильтр</button>
+    <button id="sortByDistance">Показать ближайшую планету</button>
+    <input type="text" id="searchInput" placeholder="Введите название планеты">
+    <button id="searchPlanet">Поиск</button>
+    <button id="addPlanet">Добавить планету</button>
+  </div>
+
+  <div id="planetContainer"></div>
+
+  <div class="quote-section">
+    <button id="randomQuote">Случайная цитата</button>
+    <p id="quote"></p>
+  </div>
+
+  <p id="totalPlanets">Общее число планет: 0</p>
+</main>
+
+<footer>
+  <p>© 2025 Исследование Космоса</p>
+</footer>
+
+<script src="index.js"></script>
+</body>

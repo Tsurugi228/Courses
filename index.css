@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+header {
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #666;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+#planetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planet-card {
+    background: #222;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+    width: 200px;
+}
+
+.planet-card:hover {
+    transform: scale(1.05);
+    background: #333;
+}
+
+.planet-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.quote-section {
+    margin-top: 20px;
+}
+
+#quote {
+    font-style: italic;
+    margin-top: 10px;
+}
